@@ -13,10 +13,26 @@ def first_challenge
     }
   }
 
-  #your code here
+  contacts.each do |person, data|
+  puts "#{person}: #{data}"
+  
+  data.each do |attribute, value|
+    puts "#{attribute}: #{value}"
+    
+    if attribute == :favorite_icecream_flavors
+      value.each do |flavor|
+        # here, each index element in an ice cream flavor string
+        puts "#{flavor}"
+      end
+    end
+  end
+end
+    
+  end
+#your code here
 
 
   #remember to return your newly altered contacts hash!
-  contacts
-end
+  #contacts
+
 
