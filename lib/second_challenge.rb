@@ -21,5 +21,3 @@ end
 
 second_challenge_challenge
 
-end
-end
