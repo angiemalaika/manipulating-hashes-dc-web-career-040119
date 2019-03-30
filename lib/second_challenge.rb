@@ -16,7 +16,7 @@ groceries.each do |food, data|
 
   
   groceries
-end
+
 end
 
 second_challenge_challenge
