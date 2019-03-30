@@ -18,6 +18,7 @@ groceries.each do |food, data|
   #remember to return your newly altered contacts hash!
   groceries
 end
+end
 
 second_challenge_challenge
 
