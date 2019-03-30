@@ -10,13 +10,13 @@ def second_challenge
 groceries.each do |food, data|
     data.each do |attribute, value|
      
-       
+       value.values 
       end 
     end 
   end 
 
   #remember to return your newly altered contacts hash!
-  contacts
+  groceries
 end
 
 first_challenge
